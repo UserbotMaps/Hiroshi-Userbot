@@ -1,7 +1,7 @@
 {
-  "name": "Kyy-Userbot",
+  "name": "Hiroshi-Userbot",
   "description": "USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/276d22aac9f400898cd27.jpg",
+  "logo": "https://telegra.ph/file/040c6a31ae08e75059ccf.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/muhammadrizky16/Kyy-Userbot/Kyy-Userbot",
-  "telegram": "https://t.me/IDnyaKosong",
-  "success_url": "https://t.me/NastyProject",
+  "repository": "https://github.com/UserbotMaps/Hiroshi-Userbot/Hiroshi-Userbot",
+  "telegram": "https://t.me/Bisubiarenak",
+  "success_url": "https://t.me/hiroshimabes",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -22,8 +22,13 @@
       "description": "Dapatkan Api Hash Di Web my.telegram.org",
       "required": true
     },
+    "ALIVE_LOGO": {
+      "description": "Foto dalam module .alive",
+      "value": "https://telegra.ph/file/aeba6ea2125aa7774b1b5.jpg",
+      "required": false
+    },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya ke @IDnyaKosong di telegram",
+      "description": "Dapatkan String Session di repl.it / menggunakan bot @HiroshiXbot di telegram, jika masih tidak paham gimana cara ngambil nya, mending gausa bikin bot anjing. pake jasa gua aja wkwk",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -35,10 +40,22 @@
       "value": "Check Di Heroku Dashboard Mu",
       "required": true
     },
-    "PM_AUTO_BAN": {
-      "description": "Pengalihan Fitur Larangan Otomatis PM. atau /skip",
-      "value": "False",
+    "BOTLOG_CHATID": {
+      "description": "Bikin Grup Publik Lalu Invite Bot @MissRose_Bot Ke Grup Lo, Trus Ketik /id. Ntr bakal muncul ID seperti ini Contoh : -1001681347xxx",
       "required": true
+    },
+    "PM_AUTO_BAN": {
+      "description": "Bot yang menjaga PC/Room chat kamu, ubah True untuk mengaktifkannya dan False untuk mematikannya.",
+      "value": "True",
+      "required": true
+    },
+    "ALIVE_NAME": {
+      "description": "Nama untuk menunjukan pesan .alive",
+      "required": true
+    },
+    "S_PACK_NAME": {
+      "description": "Nama Sticker Pack lo",
+      "required": false
     }
   },
   "addons": [
