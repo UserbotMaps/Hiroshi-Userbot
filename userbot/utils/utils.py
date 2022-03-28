@@ -49,7 +49,7 @@ async def autobot():
     if who.username:
         username = who.username + "_ubot"
     else:
-        username = "kyy" + (str(who.id))[5:] + "ubot"
+        username = "hiro" + (str(who.id))[5:] + "ubot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
@@ -82,7 +82,7 @@ async def autobot():
     await bot.send_read_acknowledge("botfather")
     if isdone.startswith("Sorry,"):
         ran = randint(1, 100)
-        username = "kyy" + (str(who.id))[6:] + str(ran) + "ubot"
+        username = "hiro" + (str(who.id))[6:] + str(ran) + "ubot"
         await bot.send_message(bf, username)
         await asyncio.sleep(1)
         nowdone = (await bot.get_messages(bf, limit=1))[0].text
@@ -98,7 +98,7 @@ async def autobot():
             await asyncio.sleep(1)
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
-            await bot.send_file(bf, "resources/extras/IMG_20211216_160240_756.jpg")
+            await bot.send_file(bf, "resources/extras/IMG_20220304_005450_670.jpg")
             await asyncio.sleep(3)
             await bot.send_message(bf, "/setabouttext")
             await asyncio.sleep(1)
@@ -111,7 +111,7 @@ async def autobot():
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @NastyProject ✨"
+                bf, f"🔥 Owner ~ {who.first_name} 🔥\n\n🔥 Powered By ~ @hiroshimabes ✨"
             )
             await bot.send_message(
                 BOTLOG_CHATID,
@@ -119,7 +119,7 @@ async def autobot():
             )
             await bot.send_message(
                 BOTLOG_CHATID,
-                "**Tunggu Sebentar, Sedang MeRestart Heroku untuk Menerapkan Perubahan.**",
+                "**Tunggu Sebentar, Sedang MeRestart Heroku untuk Menerapkan Perubahan Jadi Sabar Ya Memek.**",
             )
             heroku_var["BOT_TOKEN"] = token
             heroku_var["BOT_USERNAME"] = f"@{username}"
@@ -140,7 +140,7 @@ async def autobot():
         await asyncio.sleep(1)
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
-        await bot.send_file(bf, "resources/extras/IMG_20211216_160240_756.jpg")
+        await bot.send_file(bf, "resources/extras/IMG_20220304_005450_670.jpg")
         await asyncio.sleep(3)
         await bot.send_message(bf, "/setabouttext")
         await asyncio.sleep(1)
@@ -153,7 +153,7 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @NastyProject ✨"
+            bf, f"🔥 Owner ~ {who.first_name} 🔥\n\n🔥 Powered By ~ @hiroshisupport 🔥"
         )
         await bot.send_message(
             BOTLOG_CHATID,
@@ -283,8 +283,8 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="ᴋʏʏ ʟᴏɢs",
-                about="ᴍʏ ᴋʏʏ ʟᴏɢs ɢʀᴏᴜᴘ\n\n Join @NastyProject",
+                title="ʜɪʀᴏsʜɪ ʟᴏɢs",
+                about="ᴍʏ ʜɪʀᴏsʜɪ ʟᴏɢs ɢʀᴏᴜᴘ\n\n Join @hiroshimabes",
                 megagroup=True,
             ),
         )
