@@ -2,18 +2,18 @@
 
 from time import sleep
 from userbot import CMD_HELP, CMD_HANDLER as cmd
-from userbot.utils import kyy_cmd
+from userbot.utils import hiro_cmd
 
 
-@kyy_cmd(pattern="wibu2(?: |$)(.*)")
+@hiro_cmd(pattern="wibu2(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(0.07)
-    await typew.edit("**Sial Ada Wibu😨**")
+    await typew.edit("**Sial Ada Wibu Ajg😨**")
     sleep(0.07)
-    await typew.edit("**Sekuat Apapun Aku😭**")
+    await typew.edit("**Sekuat Apapun Gua😭**")
     sleep(0.07)
-    await typew.edit("**Jika Ada Wibu😨**")
+    await typew.edit("**Jika Ada Wibu😨 Di Sini Kontol**")
     sleep(0.07)
     await typew.edit("**Aku Harus Lari🏃🏻**")
     sleep(0.07)
@@ -50,7 +50,7 @@ async def typewriter(typew):
     await typew.edit("**IUHH DEMEN KOK SAMA 2D😖**")
 
 
-@kyy_cmd(pattern="wibu(?: |$)(.*)")
+@hiro_cmd(pattern="wibu(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**WI WIII WIIII WIIII.....**")
