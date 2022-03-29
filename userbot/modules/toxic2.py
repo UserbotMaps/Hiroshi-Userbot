@@ -1,150 +1,178 @@
-from time import sleep
-from userbot import CMD_HELP, CMD_HANDLER as cmd
-from userbot.utils import edit_or_reply, kyy_cmd
+# Gausah kesini ngentot!!
+# NGEDIT CMD YG BENER KONTOL!!!
+# OWN MY CODE RENDY
+# FILE BY RENDY
 
+from platform import uname
+from userbot import ALIVE_NAME, CMD_HELP
+from userbot.events import register
 
-@kyy_cmd(pattern='ngentot(?: |$)(.*)')
+# ================= CONSTANT =================
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
+# ============================================
+
+@register(outgoing=True, pattern='^.hekel(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(1)
-    xx = await edit_or_reply(typew, "**WOYY NGENTOD!!**")
-    sleep(1)
-    await xx.edit("**JANGAN SOK JAGOAN DAH LU**")
-    sleep(1)
-    await xx.edit("**MUKA MASIH KAYA KONTOL AJA**")
-    sleep(1)
-    await xx.edit("**BANGGA LU HAHAHAHA**")
-    sleep(1)
-    await xx.edit("**COBA DEH NGACA MUKA LU KAN HINA BANGET**")
-    sleep(1)
-    await xx.edit("**HAHAHAHA**")
-    sleep(1)
-    await xx.edit("**MAKANYA GANTENG KONTOL**")
-    sleep(1)
-    await xx.edit("**BIAR MUKALU GAK DIHINA TERUS**")
-    sleep(1)
-    await xx.edit("**SAMA ORANG LAIN**")
-    sleep(1)
-    await xx.edit("**HAHAHAHA**")
-# Create by myself @localheart
-
-
-@kyy_cmd(pattern='goblok(?: |$)(.*)')
+    await typew.edit("**SAYA GANTENG HEKEL BOS YAHAHAHA KONTOL.**")
+    
+@register(outgoing=True, pattern='W(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(1)
-    xx = await edit_or_reply(typew, "**WOYY GOBLOK!!**")
-    sleep(1)
-    await xx.edit("**KO LU GOBLOK BANGET SIH**")
-    sleep(1)
-    await xx.edit("**OTAK LU TUH KAYA KONTOL**")
-    sleep(1)
-    await xx.edit("**YANG LEMBEK KETIKA LEMAH**")
-    sleep(1)
-    await xx.edit("**DAN KERAS KETIKA LU SANGE GOBLOK**")
-    sleep(1)
-    await xx.edit("**HAHAHAHA**")
-    sleep(1)
-    await xx.edit("**MAKANYA JANGAN SANGEAN MULU**")
-    sleep(1)
-    await xx.edit("**MUKA LU AJA KAYA ASPAL JALANAN**")
-    sleep(1)
-    await xx.edit("**EHHH SANGE NYA MAU DAPAT YANG CANTIK**")
-    sleep(1)
-    await xx.edit("**HAHAHAHA**")
-# Create by myself @localheart
-
-
-@kyy_cmd(pattern='ngatain(?: |$)(.*)')
+    await typew.edit("**WAR WAR PALAK BAPAK KAU WAR, SOK KERAS BANGET GOBLOK DI TONGKRONGAN JADI BABU DI TELE SOK JAGOAN.**")
+    
+@register(outgoing=True, pattern='^.dih(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(1)
-    xx = await edit_or_reply(typew, "**BABI!!**")
-    sleep(1)
-    await xx.edit("**MUKA LU KAYA BABI**")
-    sleep(1)
-    await xx.edit("**OTAK LU TUH KAYA KONTOL**")
-    sleep(1)
-    await xx.edit("**MUKA LU HINA BANGET**")
-    sleep(1)
-    await xx.edit("**OTAK LU KAYA BATU**")
-    sleep(1)
-    await xx.edit("**HAHAHAHA**")
-    sleep(1)
-    await xx.edit("**MAKANYA JANGAN SANGEAN MULU**")
-    sleep(1)
-    await xx.edit("**KONTOL LU AJA MASIH BENGKOK**")
-    sleep(1)
-    await xx.edit("**EHHH SANGE NYA MAU DAPAT YANG CANTIK**")
-    sleep(1)
-    await xx.edit("**HAHAHAHA**")
-# Create by myself @localheart
-
-
-@kyy_cmd(pattern='yatim(?: |$)(.*)')
+    await typew.edit("**DIHH NAJISS ANAK HARAM LO GOBLOK JANGAN BELAGU DIMARI KAGA KEREN LU KEK BEGITU TOLOL.**")
+    
+@register(outgoing=True, pattern='^.gembel(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(1)
-    xx = await edit_or_reply(typew, "`Hai Anak Kontol 🙈, Jangan Lupa Makan Yaa`")
-    sleep(1)
-    await xx.edit("`Jangan Bilang Lu Ga Dikasih Makan Sama Ortu 😁`")
-    sleep(1)
-    await xx.edit("`APA PERLU GUA SANTUNIN ?? 🙈🙈 xixixi`")
-    sleep(1)
-    await xx.edit("`OH IYAA LUPAAA, LU KAN BEBAN KELUARGA 🤣`")
-    sleep(1)
-    await xx.edit("`MANA MUNGKIN ORTU LU PEDULII xixixi 🙈`")
-    sleep(1)
-    await xx.edit("`KETAWA DULU BOLEH KALI YAA 😁`")
-    sleep(1)
-    await xx.edit("`HAHAHAHAHAHAHA`")
-    sleep(1)
-    await xx.edit("`KASIAN ORTUNYAA GAPEDULIII 🙈🤣`")
-    sleep(1)
-    await xx.edit("`MAAF YA, CANDAA BEBANNNN xixixi 🙈`")
-    sleep(1)
-    await xx.edit("`Tapi Bo'ong Hiyahiyahiya`")
-# Create by myself @localheart
-
-
-@kyy_cmd(pattern="kont(?: |$)(.*)")
+    await typew.edit("**MUKA BAPAK LU KEK KEPALA SAWIT ANJING, GA USAH NGATAIN ORANG, MUKA LU AJA KEK GEMBEL TEXAS GOBLOK!!.**")
+    
+@register(outgoing=True, pattern='^.sokab(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(1)
-    xx = await edit_or_reply(typew, "**KONTOLL**")
-    sleep(1.5)
-    await xx.edit("**LU ANAK KONTOLL**")
-    sleep(1.5)
-    await xx.edit("**DI BIKIN DARI KONTOLL**")
-    sleep(1.5)
-    await xx.edit("**MUKALU PERSIS KONTOLL**")
-    sleep(1.5)
-    await xx.edit("**DASAR ANAK NGONTOLLLL**")
-    sleep(1.5)
-    await xx.edit("**NOLEP KONTOLL**")
-    sleep(1.5)
-    await xx.edit("**NGERUSUH KONTOLL**")
-    sleep(1.5)
-    await xx.edit("**BENER BENER KONTOLL**")
-    sleep(1.5)
-    await xx.edit("**PADAHAL LO GAPUNYA KONTOLL**")
-    sleep(1.5)
-    await xx.edit("**MENDING LO OPERASI KONTOLL**")
-    sleep(1.5)
-    await xx.edit("**BIAR LO PUNYA KONTOLL**")
-    sleep(1.5)
-    await xx.edit("**KASIAN CACAD GAPUNYA KONTOLL**")
+    await typew.edit("**SOKAB BET LU GOBLOK, KAGA ADA ISTILAH NYA BAWAHAN TEMENAN AMA BOS!!.**")
+    
+@register(outgoing=True, pattern='^.ded(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**MATI AJA LU GOBLOK GAGUNA LU HIDUP DI BUMI.**")
+    
+@register(outgoing=True, pattern='^.caper(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**NAMANYA JUGA JAMET CAPER SANA SINI BUAT CARI NAMA.**")
+    
+@register(outgoing=True, pattern='^.lo(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**CUIIHHH, MAKAN AJA MASIH NGEMIS LO GOBLOK, JANGAN SO NINGGI YA KONTOL GA KEREN LU KEK GITU GOBLOK.**")
+    
+@register(outgoing=True, pattern='^.pmblok(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**ANAK KONTOL ANAK NGENTOT, KALO NGECHAT MAJIKAN GUA ITU SALAM, HABIS ITU SABAR TUNGGU MAJIKAN GUA BALES, KALO GA DI BALES-BALES LU JANGAN NYEPAM KONTOL, KAYA ANAK YATIM MAU MINTA SEMBAKO LU ANJING, APA LAGI LU NGECHAT NYA CUMA MINTA VCS, BISA GUA BLOKIR!! KALO NYEPAM JUGA TAR GUA BLOKIR!!! TUNGGU SI GUA NERIMA PESAN LU.**")
+    
+@register(outgoing=True, pattern='^.sepi(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**KEK HATI LO BEGO😆.**")
+
+@register(outgoing=True, pattern='^.woi(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**WOI LU SEMUA BABI😠.**")
+ 
+@register(outgoing=True, pattern='^.ngatur(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**WOI ANJING, DENGER YA, ORANG GAK USAH NGATUR NGATUR HIDUP ORANG YA NGENTOT, URUS AJA HIDUP LU SENDIRI BANGSAT, UDAH BENER APA KAGAK.**")
+
+@register(outgoing=True, pattern='^.ubot(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**GW TAU LU USERBOT TAPI GAUSAH NORAK NGENTOT.**")
+              
+@register(outgoing=True, pattern='^D(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**BACOT NGENTOTTT BAPA LU SURUH RIBUT SAMA GUA.**")
+              
+@register(outgoing=True, pattern='^E(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**GAK USAH SOK KERAS GOBLOK!!KENCING MASIH BERDIRI AJA BELAGU.**")
+              
+@register(outgoing=True, pattern='^F(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**MUKA LU SEMUA KAYA KONTOL HAHAHAHA.**")
+              
+@register(outgoing=True, pattern='^I(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**KONTOL MASIH BENGKOK AJA BANGGA LU HAHAHAHA!!.**")
+              
+@register(outgoing=True, pattern='^Q(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**EHH GOBLOK LU SEMUA RIBUT SAMA GUA SINI NGENTOT!.**")
+              
+@register(outgoing=True, pattern='^R(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**AKU SAYANG KAMU MWAHHH😭.**")
+              
+@register(outgoing=True, pattern='^T(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**BABI!!KONTOL!!NGENTOT!!!.**")
+              
+@register(outgoing=True, pattern='^U(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**BABI LU GOBLOK!!GANTENGAN JUGA GUA BHAHAHAHA.**")
+              
+@register(outgoing=True, pattern='^.cantik(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**KAMU CANTIK BANGET😍.**")
+              
 
 
 CMD_HELP.update({
-    "toxic2": f"𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}ngentot`\
-    \n↳ : Cobain aja\
-    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}goblok`\
-    \n↳ : Cobain aja\
-    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}ngatain`\
-    \n↳ : Cobain aja\
-    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}kont`\
-    \n↳ : Cobain aja\
-    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}yatim`\
-    \n↳ : Cobain aja."
-})
+    "toxic3":
+    ".hekel\
+    \nUsage:\
+    \n\nW\
+    \nUsage:\
+    \n\n.dih\
+    \nUsage:\
+    \n\n.gembel\
+    \nUsage:\
+    \n\n.sokab\
+    \nUsage:\
+    \n\n.ded\
+    \nUsage:\
+    \n\n.caper\
+    \nUsage:\
+    \n\n.lo\
+    \nUsage:\
+    \n\n.pmblok\
+    \nUsage:pc blok tolol😂\
+    \n\n.sepi\
+    \nUsage:"
+}) 
+
+
+CMD_HELP.update({
+	"toxic4":
+	".woi\
+	\nUsage:\
+	\n\n.ngatur\
+	\nUsage:\
+	\n\n.ubot\
+	\nUsage:\
+	\n\nD\
+	\nUsage:\
+	\n\nE\
+	\nUsage:\
+	\n\nF\
+	\nUsage:\
+	\n\nI\
+	\nUsage:\
+	\n\nQ\
+	\nUsage:\
+	\n\nR\
+	\nUsage:\
+	\n\nT\
+	\nUsage:\
+	\n\nU\
+	\nUsage:\
+	\n\n.cantik\
+	\nUsage:"
+	
+}) 
