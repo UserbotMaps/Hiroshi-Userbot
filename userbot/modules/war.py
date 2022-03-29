@@ -1,9 +1,9 @@
 from time import sleep
 from userbot import CMD_HELP, CMD_HANDLER as cmd
-from userbot.utils import edit_or_reply, kyy_cmd
+from userbot.utils import edit_or_reply, hiro_cmd
 
 
-@kyy_cmd(pattern="jamet(?: |$)(.*)")
+@hiro_cmd(pattern="jamet(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     x = await edit_or_reply(typew, "**WOII**")
@@ -29,7 +29,7 @@ async def typewriter(typew):
     await x.edit("**LEMBEK NGENTOT🔥**")
 
 
-@kyy_cmd(pattern="pp(?: |$)(.*)")
+@hiro_cmd(pattern="pp(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await edit_or_reply(typew,
@@ -37,31 +37,31 @@ async def typewriter(typew):
                         )
 
 
-@kyy_cmd(pattern="dp(?: |$)(.*)")
+@hiro_cmd(pattern="dp(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await edit_or_reply(typew, "**MUKA LU HINA, GAUSAH SOK KERAS YA NGENTOT!!**")
 
 
-@kyy_cmd(pattern="so(?: |$)(.*)")
+@hiro_cmd(pattern="so(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await edit_or_reply(typew, "**GAUSAH SOKAB SAMA GUA NGENTOT, LU BABU GA LEVEL!!**")
 
 
-@kyy_cmd(pattern="nb(?: |$)(.*)")
+@hiro_cmd(pattern="nb(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await edit_or_reply(typew, "**MAEN BOT MULU ALAY NGENTOTT, KESANNYA NORAK GOBLOK!!!**")
 
 
-@kyy_cmd(pattern="met(?: |$)(.*)")
+@hiro_cmd(pattern="met(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await edit_or_reply(typew, "**NAMANYA JUGA JAMET CAPER SANA SINI BUAT CARI NAMA BHAHAHA**")
 
 
-@kyy_cmd(pattern="war(?: |$)(.*)")
+@hiro_cmd(pattern="war(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await edit_or_reply(event,
@@ -69,7 +69,7 @@ async def typewriter(typew):
                         )
 
 
-@kyy_cmd(pattern="wartai(?: |$)(.*)")
+@hiro_cmd(pattern="wartai(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await edit_or_reply(typew,
@@ -77,7 +77,7 @@ async def typewriter(typew):
                         )
 
 
-@kyy_cmd(pattern="kismin(?: |$)(.*)")
+@hiro_cmd(pattern="kismin(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await edit_or_reply(typew,
@@ -85,13 +85,13 @@ async def typewriter(typew):
                         )
 
 
-@kyy_cmd(pattern="ded(?: |$)(.*)")
+@hiro_cmd(pattern="ded(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await edit_or_reply(typew, "**MATI AJA LU GOBLOK, GAGUNA LU HIDUP DI BUMI**")
 
 
-@kyy_cmd(pattern="sokab(?: |$)(.*)")
+@hiro_cmd(pattern="sokab(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await edit_or_reply(typew,
@@ -99,7 +99,7 @@ async def typewriter(typew):
                         )
 
 
-@kyy_cmd(pattern="gembel(?: |$)(.*)")
+@hiro_cmd(pattern="gembel(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await edit_or_reply(typew,
@@ -107,7 +107,7 @@ async def typewriter(typew):
                         )
 
 
-@kyy_cmd(pattern="cuih(?: |$)(.*)")
+@hiro_cmd(pattern="cuih(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await edit_or_reply(typew,
@@ -148,7 +148,7 @@ CMD_HELP.update(
         \n  •  **Function : **Ngeledek bapaknya si jamet\
         \n\n  •  **Syntax :** `{cmd}cuih`\
         \n  •  **Function : **Ngeludahin keluarganya satu satu wkwk\
-        \n\n**Klo mau Req, kosa kata dari lu Hubungi @IDnyaKosong**\
+        \n\n**Kalau Mau Req Kosa Kata Ke Owner Gua Ya Kontol ☞ @Bisubiarenak**\
     "
     }
 )
