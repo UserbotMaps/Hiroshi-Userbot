@@ -1,33 +1,33 @@
 from time import sleep
 from userbot import CMD_HELP, CMD_HANDLER as cmd
-from userbot.utils import kyy_cmd
+from userbot.utils import hiro_cmd
 
 
-@kyy_cmd(pattern='Kyy(?: |$)(.*)')
+@hiro_cmd(pattern='Hiro(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Hai Perkenalkan Namaku Kyy`")
+    await typew.edit("`Hai Perkenalkan Namaku Hiroshi`")
     sleep(3)
     await typew.edit("`19 Tahun`")
     sleep(1)
-    await typew.edit("`Tinggal Di Batam, Salam Kenal:)`")
+    await typew.edit("`Tinggal Di Banten, Salam Brody:)`")
 # Create by myself @localheart
 
 
-@kyy_cmd(pattern='sayang(?: |$)(.*)')
+@hiro_cmd(pattern='sayang(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
     await typew.edit("`Cuma Mau Bilang`")
     sleep(3)
-    await typew.edit("`Aku Sayang Kamu`")
+    await typew.edit("`Kamu Tay Kata Hiroshi`")
     sleep(1)
-    await typew.edit("`I LOVE YOU 💞`")
+    await typew.edit("`Fak Cinta Fak Fak Fak Tay💞`")
 # Create by myself @localheart
 
 
-@kyy_cmd(pattern='semangat(?: |$)(.*)')
+@hiro_cmd(pattern='semangat(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
@@ -40,8 +40,8 @@ async def typewriter(typew):
 
 
 CMD_HELP.update({
-    "oi": f"𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}Kyy`\
-    \n↳ : perkenalan Kyy\
+    "oi": f"𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}Hiro`\
+    \n↳ : perkenalan Hiro\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}sayang`\
     \n↳ : Gombalan maut`\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}semangat`\
