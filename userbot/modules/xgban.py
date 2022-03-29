@@ -1,20 +1,20 @@
 from asyncio import sleep
 from telethon.tl.types import ChatBannedRights
 from telethon.tl.functions.channels import EditBannedRequest
-from userbot.utils import edit_or_reply, edit_delete, kyy_cmd
+from userbot.utils import edit_or_reply, edit_delete, hiro_cmd
 from userbot import CMD_HELP, CMD_HANDLER as cmd
 
 
-@kyy_cmd(pattern="allban(?: |$)(.*)")
+@hiro_cmd(pattern="allban(?: |$)(.*)")
 async def testing(event):
     nikal = await event.get_chat()
     chutiya = await event.client.get_me()
     admin = nikal.admin_rights
     creator = nikal.creator
     if not admin and not creator:
-        await edit_or_reply(event, "Anda Tidak Mempunyai Hak")
+        await edit_or_reply(event, "Lu Ga Ada Hak Kontol")
         return
-    await edit_or_reply(event, "Tidak Melakukan Apa-apa")
+    await edit_or_reply(event, "Lu Tidak Melakukan Apa-apa")
 # Thank for Dark_Cobra
     everyone = await event.client.get_participants(event.chat_id)
     for user in everyone:
