@@ -5,7 +5,7 @@ from telethon import events
 import asyncio
 
 
-@kyy_cmd(pattern="sayang$")
+@hiro_cmd(pattern="sayang$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         e = await edit_or_reply(e, "I LOVEE YOUUU 💕")
