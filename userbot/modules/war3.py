@@ -1,5 +1,5 @@
 # ReCode by @Hiroshi
-# FROM skyzu-userbot <https://github.com/UserbotMaps/Hiroshi-Userbot>
+# FROM Hiroshi-Userbot <https://github.com/UserbotMaps/Hiroshi-Userbot>
 # KONTOLLLLLLL GA USAH DI APUS MEMEK CREDIT NYA 
 
 from platform import uname
