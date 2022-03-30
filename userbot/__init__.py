@@ -659,7 +659,7 @@ with bot:
                 result = await event.builder.photo(
                     file=hirologo,
                     link_preview=False,
-                    text=f"**✙ʜɪʀᴏsʜɪ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ✙**\n\n✣ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✙ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**",
+                    text=f"**✙ʜɪʀᴏsʜɪ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ✙**\n\n✙ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✙ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **ᴍᴏᴅᴜʟᴇs**", 
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
