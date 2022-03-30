@@ -253,8 +253,8 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 YOUTUBE_API_KEY = os.environ.get(
     "YOUTUBE_API_KEY") or "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg"
 
-# Untuk Perintah .kyyalive
-KYY_TEKS_KUSTOM = os.environ.get("KYY_TEKS_KUSTOM", "I'am Using Hiroshi-Userbot✨")
+# Untuk Perintah .hiroalive
+HIRO_TEKS_KUSTOM = os.environ.get("HIRO_TEKS_KUSTOM", "I'am Using Hiroshi-Userbot✨")
 
 # Untuk Mengubah Pesan Welcome
 START_WELCOME = os.environ.get("START_WELCOME", None)
@@ -415,7 +415,7 @@ for binary, path in binaries.items():
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "Kyy-Userbot"
+    session = "Hiroshi-Userbot"
 try:
     bot = TelegramClient(
         session=session,
@@ -567,7 +567,7 @@ with bot:
                 current_page_number = int(looters)
                 buttons = paginate_help(
                     current_page_number, dugmeler, "helpme")
-                text = f"**⚡ ʜɪʀᴏsʜɪ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ⚡**\n\n✣ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**"
+                text = f"**✙ʜɪʀᴏsʜɪ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ✙**\n\n✣ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**"
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -654,12 +654,12 @@ with bot:
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query.startswith("@KyyUserbot"):
+            if event.query.user_id == uid and query.startswith("@@iroshiUserbot"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = await event.builder.photo(
                     file=kyylogo,
                     link_preview=False,
-                    text=f"**⚡ ʜɪʀᴏsʜɪ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ⚡**\n\n✣ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**",
+                    text=f"**✙ʜɪʀᴏsʜɪ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ✙**\n\n✣ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
@@ -672,7 +672,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**Hiroshi-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [Hiroshi](https://t.me/Bisubiarenak)\n✣ **sᴜᴘᴘᴏʀᴛ :** @hiroshisupport\n✣ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Hiroshi-Userbot](https://github.com/UserbosMaps/Hiroshi-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**✙ Hiroshi-Userbot ✙**\n➖➖➖➖➖➖➖➖➖➖\n✙ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [Hiroshi](https://t.me/Bisubiarenak)\n✙ **sᴜᴘᴘᴏʀᴛ :** @hiroshisupport\n✙ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Hiroshi-Userbot](https://github.com/UserbosMaps/Hiroshi-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -719,7 +719,7 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="⚡ ʜɪʀᴏsʜɪ-ᴜsᴇʀʙᴏᴛ ⚡",
+                    title="✙ ʜɪʀᴏsʜɪ-ᴜsᴇʀʙᴏᴛ ✙",
                     description="Hiroshi - Userbot | Telethon",
                     url="https://t.me/hiroshisupport",
                     thumb=InputWebDocument(
@@ -727,7 +727,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**Hiroshi-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @hiroshimabes\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**✙ Hiroshi-Userbot ✙**\n➖➖➖➖➖➖➖➖➖➖\n✙ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✙ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @hiroshimabes\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -768,7 +768,7 @@ with bot:
                 openlagi = custom.Button.inline(
                     "• Re-Open Menu •", data="reopen")
                 await event.edit(
-                    "⚜️ **ʜᴇʟᴘ ᴍᴏᴅᴇ ʙᴜᴛᴛᴏɴ ᴅɪᴛᴜᴛᴜᴘ!** ⚜️", buttons=openlagi
+                    "✚ **ʜᴇʟᴘ ᴍᴏᴅᴇ ʙᴜᴛᴛᴏɴ ᴅɪᴛᴜᴛᴜᴘ!** ✚", buttons=openlagi
                 )
             else:
                 reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
