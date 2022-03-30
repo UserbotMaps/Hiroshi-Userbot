@@ -2,10 +2,13 @@
 # FROM skyzu-userbot <https://github.com/Skyzu/skyzu-userbot>
 # KONTOLLLL
 
-from time import sleep
-
+from platform import uname
 from userbot import bot, ALIVE_NAME, CMD_HELP, CMD_HANDLER, bot
 from userbot.events import register
+
+# ================= CONSTANT =================
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
+# ============================================
 
 
 @register(outgoing=True, pattern=r"^\.sok(?: |$)(.*)")
