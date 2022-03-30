@@ -4,7 +4,7 @@
 
 from time import sleep
 
-from userbot import bot, ALIVE_NAME, CMD_HELP, CMD_HANDLER
+from userbot import bot, ALIVE_NAME, CMD_HELP, CMD_HANDLER, bot
 from userbot.events import register
 
 
