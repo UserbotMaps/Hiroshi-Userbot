@@ -4,7 +4,7 @@
 # FILE BY RENDY
 
 from platform import uname
-from userbot import ALIVE_NAME, CMD_HELP
+from userbot import ALIVE_NAME, CMD_HELP, bot
 from userbot.events import register
 
 # ================= CONSTANT =================
