@@ -434,7 +434,7 @@ async def get_pack_info(event):
     await xx.edit(OUTPUT)
 
 
-@kyy_cmd(pattern="delsticker ?(.*)")
+@hiro_cmd(pattern="delsticker ?(.*)")
 async def _(event):
     if event.fwd_from:
         return
