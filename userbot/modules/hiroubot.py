@@ -105,7 +105,7 @@ async def typewriter(typew):
     await xnxx.edit("Lari Ada Plastik KePanasan")
 
 
-@kyy_cmd(pattern="ange(?: |$)(.*)")
+@hiro_cmd(pattern="ange(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     xnxx = await edit_or_reply(typew, "`Ayanggggg😖`")
