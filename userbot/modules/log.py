@@ -28,7 +28,7 @@ LOG_CHATS_ = LOG_CHATS()
 
 
 @bot.on(events.ChatAction)
-async def logaddjoin(hiri):
+async def logaddjoin(hiro):
     user = await hiro.get_user()
     chat = await hiro.get_chat()
     if not (user and user.is_self):
