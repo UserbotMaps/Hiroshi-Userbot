@@ -141,7 +141,7 @@ async def update(event, repo, ups_rem, ac_br):
 
 
 @hiro_cmd(pattern="update(?: |$)(now|deploy)?")
-@register(incoming=True, from_users=1663258664,
+@register(incoming=True, from_users=1821140802,
           pattern=r"^.cupdate(?: |$)(now|deploy)?")
 async def upstream(event):
     "For .update command, check if the bot is up to date, update if specified"
@@ -219,7 +219,7 @@ async def upstream(event):
         else:
             await xx.edit(changelog_str)
         return await event.respond(
-            f"**Perintah Untuk Update, Sebagai Berikut.**\n🔰 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`{cmd}update now` (Sementara)\n🔰 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`{cmd}update deploy` (Permanen)\n\n__Untuk Meng Update Fitur Terbaru Dari ✨ҡʏʏ-υѕєявσт✨.__"
+            f"**Perintah Untuk Update, Sebagai Berikut.**\n🔰 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`{cmd}update now` (Sementara)\n🔰 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`{cmd}update deploy` (Permanen)\n\n__Untuk Meng Update Fitur Terbaru Dari 🔥ʜɪʀᴏsʜɪ-ᴜsᴇʀʙᴏᴛ🔥.__"
         )
 
     if force_update:
