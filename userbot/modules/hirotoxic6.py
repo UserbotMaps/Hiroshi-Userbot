@@ -39,20 +39,20 @@ async def typewriter(pukii):
   await pukii.edit("**CEWEK LU AJA PAS KETEMU GUE LANGSUNG TELANJANG KERENA GUE TERLALU GANTENG YANG GANTENG NYA KELWATAN**")
 
 CMD_HELP.update({
-    "toxic8":
-    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.dsn`\
-    \n↳ : cobain Ajah Kntl"
-    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.bty`\
-    \n↳ : cobain Ajah Kntl"
+    "toxic9":
+    "𝘾𝙈𝘿: `.dsn`\
+    \n↳ : cobain Kntl"
+    "𝘾𝙈𝘿: `.bty`\
+    \n↳ : cobain Kntl"
 }) 
           
 CMD_HELP.update({
-    "toxic9":
-    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ebo`\
-    \n↳ : cobain Ajah Kntl"
-    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.niye`\
-    \n↳ : cobain Ajah Kntl"
-    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.cla`\
-    \n↳ : cobain Ajah Kntl"
+    "toxic10":
+    "𝘾𝙈𝘿: `.ebo`\
+    \n↳ : cobain Kntl"
+    "𝘾𝙈𝘿: `.niye`\
+    \n↳ : cobain Kntl"
+    "𝘾𝙈𝘿: `.cla`\
+    \n↳ : cobain Kntl"
 
 })
