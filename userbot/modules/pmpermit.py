@@ -41,7 +41,7 @@ CUSTOM_TEXT = str(
     PMPERMIT_TEXT) if PMPERMIT_TEXT else f"__Halo kawan, saya bot yang menjaga room chat Hiroshi-Userbot {owner} di mohon jangan melakukan spam , kalau anda melakukan itu OTOMATIS saya akan memblockir anda!__ \n"
 DEF_UNAPPROVED_MSG = (
     "╔═════════════════════════╗\n"
-    " ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ᴘʀɪᴠᴀᴄʏ ᴍᴇssᴀɢᴇ \n"
+    "         ᴘʀɪᴠᴀᴄʏ ᴍᴇssᴀɢᴇ \n"
     "╚═════════════════════════╝\n"
     f"ᴛᴏʟᴏɴɢ ᴊᴀɴɢᴀɴ ᴍᴇʟᴀᴋᴜᴋᴀɴ sᴘᴀᴍ ᴄʜᴀᴛ ᴋᴇᴘᴀᴅᴀ {owner} \n"
     f"ᴋᴀʀᴇɴᴀ sᴀʏᴀ ᴀᴋᴀɴ ᴏᴛᴏᴍᴀᴛɪs ᴍᴇᴍʙʟᴏᴋɪʀ ᴋᴀᴍᴜ, ᴛᴜɴɢɢᴜ sᴀᴍᴘᴀɪ {owner} \nᴍᴇɴᴇʀɪᴍᴀ ᴘᴇsᴀɴ ᴋᴀᴍᴜ ʏᴀ ᴋᴏɴᴛᴏʟ [🔥]({PMPERMIT_PIC}) \n"
