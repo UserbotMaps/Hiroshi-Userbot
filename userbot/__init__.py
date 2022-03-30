@@ -567,7 +567,7 @@ with bot:
                 current_page_number = int(looters)
                 buttons = paginate_help(
                     current_page_number, dugmeler, "helpme")
-                text = f"**✙ʜɪʀᴏsʜɪ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ✙**\n\n✣ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**"
+                text = f"**✙ʜɪʀᴏsʜɪ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ✙**\n\n✙ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✙ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **ᴍᴏᴅᴜʟᴇs**"
                 await event.edit(
                     text,
                     file=hirologo,
