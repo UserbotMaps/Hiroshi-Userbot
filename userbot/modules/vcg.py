@@ -1,5 +1,5 @@
 # Thanks Full To Team Ultroid
-# Fiks By Kyy @IDnyaKosong
+# Fiks By Kyy @IDnyaKosong X @Bisubiareank
 
 
 from telethon.tl.functions.channels import GetFullChannelRequest as getchat
@@ -9,11 +9,11 @@ from telethon.tl.functions.phone import GetGroupCallRequest as getvc
 from telethon.tl.functions.phone import InviteToGroupCallRequest as invitetovc
 
 from userbot import ALIVE_NAME
-from userbot import bot, CMD_HELP, CMD_HANDLER
+from userbot import CMD_HELP, CMD_HANDLER as cmd
 from userbot.utils import edit_delete, edit_or_reply, hiro_cmd
 from userbot.events import register
 
-NO_ADMIN = "`Maaf Kamu Bukan Admin 👮`"
+NO_ADMIN = "`Siaa Lain Admin Ajg Coba Nu Hade Ongkoh 👮`"
 
 
 async def get_call(event):
@@ -34,7 +34,7 @@ async def start_voice(c):
     creator = chat.creator
 
     if not admin and not creator:
-        await c.edit(f"**Maaf {ALIVE_NAME} Bukan Admin 👮**")
+        await c.edit(f"**Sory Lu {ALIVE_NAME} Bukan Admin 👮**")
         return
     try:
         await c.client(startvc(c.chat_id))
@@ -50,7 +50,7 @@ async def stop_voice(c):
     creator = chat.creator
 
     if not admin and not creator:
-        await c.edit(f"**Maaf {ALIVE_NAME} Bukan Admin 👮**")
+        await c.edit(f"**Sory Lu {ALIVE_NAME} Bukan Admin 👮**")
         return
     try:
         await c.client(stopvc(await get_call(c)))
@@ -90,7 +90,7 @@ async def change_title(e):
         return await edit_delete(e, "**Silahkan Masukan Title Obrolan Suara Grup**")
 
     if not admin and not creator:
-        await edit_delete(e, f"**Maaf {ALIVE_NAME} Bukan Admin 👮**")
+        await edit_delete(e, f"**Sory Lu {ALIVE_NAME} Bukan Admin 👮**")
         return
     try:
         await e.client(settitle(call=await get_call(e), title=title.strip()))
@@ -101,13 +101,13 @@ async def change_title(e):
 
 CMD_HELP.update(
     {
-        "vcg": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.startvc`\
+        "vcg": f"𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}startvc`\
          \n↳ : Memulai Obrolan Suara dalam Group.\
-         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.stopvc`\
+         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}stopvc`\
          \n↳ : `Menghentikan Obrolan Suara Pada Group.`\
-         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.vcinvite`\
-         \n↳ : Invite semua member yang berada di group."
-         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.vctittle <tittle vcg>`\
+         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}vctittle <tittle vcg>`\
          \n↳ : `Mengubah tittle/judul Obrolan Suara.`\
+         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}vcinvite`\
+         \n↳ : Invite semua member yang berada di group."
     }
 )
