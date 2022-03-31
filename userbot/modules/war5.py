@@ -117,7 +117,7 @@ async def typewriter(typew):
 
 CMD_HELP.update(
     {
-        "war": f"**Plugin : **`war`\
+        "war5": f"**Plugin : **`war`\
         \n\n  •  **Syntax :** `{cmd}aln`\
         \n  •  **Function : **Hina Hina Orang\
         \n\n  •  **Syntax :** `{cmd}mag`\
