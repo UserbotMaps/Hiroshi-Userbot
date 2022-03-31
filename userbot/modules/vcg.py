@@ -9,11 +9,11 @@ from telethon.tl.functions.phone import GetGroupCallRequest as getvc
 from telethon.tl.functions.phone import InviteToGroupCallRequest as invitetovc
 
 from userbot import ALIVE_NAME
-from userbot import bot, CMD_HELP, CMD_HANDLER as cmd
+from userbot import bot, CMD_HELP, CMD_HANDLER
 from userbot.utils import edit_delete, edit_or_reply, hiro_cmd
 from userbot.events import register
 
-NO_ADMIN = "`Sorry Lu Bukan Admin Ya Kontol 👮`"
+NO_ADMIN = "`Maaf Kamu Bukan Admin 👮`"
 
 
 async def get_call(event):
@@ -101,13 +101,13 @@ async def change_title(e):
 
 CMD_HELP.update(
     {
-        "vcg": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}startvc`\
+        "vcg": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.startvc`\
          \n↳ : Memulai Obrolan Suara dalam Group.\
-         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}stopvc`\
+         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.stopvc`\
          \n↳ : `Menghentikan Obrolan Suara Pada Group.`\
-         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}vcinvite`\
+         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.vcinvite`\
          \n↳ : Invite semua member yang berada di group."
-         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}vctittle <tittle vcg>`\
+         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.vctittle <tittle vcg>`\
          \n↳ : `Mengubah tittle/judul Obrolan Suara.`\
     }
 )
