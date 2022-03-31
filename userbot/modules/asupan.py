@@ -59,7 +59,7 @@ async def _(event):
 @hiro_cmd(pattern="bokep$")
 async def _(event):
     try:
-        desahnya = [
+        bokepnya = [
             bokep
             async for bokep in event.client.iter_messages(
                 "@asupanskyzu", filter=InputMessagesFilterVoice
