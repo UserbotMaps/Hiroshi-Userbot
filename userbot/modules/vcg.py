@@ -16,10 +16,17 @@ from userbot.events import register
 NO_ADMIN = "`Siaa Lain Admin Ajg Coba Nu Hade Ongkoh 👮`"
 
 
-async def get_call(event):
-    hiroshi = await event.client(getchat(event.chat_id))
-    hiroshi = await event.client(getvc(hiroshi.full_chat.call, limit=1))
-    return hiroshi.call
+def vcmention(user):
+    full_name = get_display_name(user)
+    if not isinstance(user, types.User):
+        return full_name
+    return f"[{full_name}](tg://user?id={user.id})"
+
+
+async def get_call(hiro):
+    hiro = await hiro.client(getchat(hiro.chat_id))
+    await hiro.client(getvc(hiro.full_chat.call, limit=1))
+    return hehe.call
 
 
 def user_list(l, n):
@@ -60,21 +67,21 @@ async def stop_voice(c):
 
 
 @register(outgoing=True, pattern=r"^\.vcinvite", groups_only=True)
-async def _(hiroshi):
-    await hiroshi.edit("`Sedang Menginvite Member...`")
+async def _(hiro):
+    await hiro.edit("`Sedang Menginvite Member...`")
     users = []
     z = 0
-    async for x in hiroshi.client.iter_participants(hiroshi.chat_id):
+    async for x in hiro.client.iter_participants(hiro.chat_id):
         if not x.bot:
             users.append(x.id)
     hmm = list(user_list(users, 6))
     for p in hmm:
         try:
-            await hiroshi.client(invitetovc(call=await get_call(hiroshi), users=p))
+            await hiro.client(invitetovc(call=await get_call(hiro), users=p))
             z += 6
         except BaseException:
             pass
-    await hiroshi.edit(f"`Menginvite {z} Member`")
+    await hiro.edit(f"`Menginvite {z} Member`")
 
 
 @hiro_cmd(pattern="vctitle(?: |$)(.*)")
