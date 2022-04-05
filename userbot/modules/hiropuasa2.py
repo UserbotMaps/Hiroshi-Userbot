@@ -93,7 +93,7 @@ async def _(event):
 
 CMD_HELP.update(
     {
-        "hiropuasa2": f"**Plugin : **`ramadhan3`\
+        "hiropuasa2": f"**Plugin : **`ramadhan2`\
         \n\n    **Perintah :** `{cmd}sholat2`\
         \n✙    **Fungsi : **ngatain orang yang puasa tapi ga sholat.\
         \n\n    **Perintah :** `{cmd}bukber5`\
