@@ -21,7 +21,7 @@ from pytgcalls.exceptions import AlreadyJoinedError
 from telethon.tl import types
 from telethon.utils import get_display_name
 from youtubesearchpython import VideosSearch
-
+from userbot.events import register
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP
 from userbot import PLAY_PIC as fotoplay
@@ -490,7 +490,7 @@ async def _(event):
             return await Man.edit(f"**ERROR:** `{e}`")
     else:
         chat_id = event.chat_id
-    file = "./userbot/resources/audio-man.mp3"
+    file = "./resources/audio-man.mp3"
     if chat_id:
         try:
             await call_py.join_group_call(
