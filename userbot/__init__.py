@@ -157,7 +157,7 @@ PMPERMIT_TEXT = os.environ.get("PMPERMIT_TEXT", None)
 
 # Custom Pmpermit pic
 PMPERMIT_PIC = os.environ.get(
-    "PMPERMIT_PIC") or "https://telegra.ph/file/aeba6ea2125aa7774b1b5.jpg.jpg"
+    "PMPERMIT_PIC") or "https://telegra.ph/file/aeba6ea2125aa7774b1b5.jpg"
 
 # Bleep Blop, this is a bot ;)
 PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
@@ -300,7 +300,7 @@ INLINE_PIC = os.environ.get(
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✙"
 
-# °Kyy-Userbot°
+# °Hiroshi-Userbot°
 OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/Bisubiarenak"
 
 DEFAULT = list(map(int, b64decode("MTY2MzI1ODY2NA==").split()))
