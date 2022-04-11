@@ -4,7 +4,7 @@
 
 from time import sleep
 from userbot import CMD_HELP, CMD_HANDLER as cmd
-from userbot.utils import Hiro_cmd
+from userbot.utils import hiro_cmd
 from userbot.events import register
 
 
@@ -14,115 +14,115 @@ async def typewriter(typew):
     await typew.edit("Stress!!!")
 
 
-@Hiro_cmd(pattern='nanya(?: |$)(.*)')
+@hiro_cmd(pattern='nanya(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("Nanya mulu lo mmk!!!")
 
 
-@Hiro_cmd(pattern='usi(?: |$)(.*)')
+@hiro_cmd(pattern='usi(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("u siapa?")
 
 
-@Hiro_cmd(pattern='oh(?: |$)(.*)')
+@hiro_cmd(pattern='oh(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("OH")
 
 
-@Hiro_cmd(pattern='terus(?: |$)(.*)')
+@hiro_cmd(pattern='terus(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("Terus gua harus apa??")
 
 
-@Hiro_cmd(pattern='tandata(?: |$)(.*)')
+@hiro_cmd(pattern='tandata(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("?????")
 
 
-@Hiro_cmd(pattern='useh(?: |$)(.*)')
+@hiro_cmd(pattern='useh(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("u sehat?")
 
 
-@Hiro_cmd(pattern='gjls(?: |$)(.*)')
+@hiro_cmd(pattern='gjls(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("Gajelas mmk!")
 
 
-@Hiro_cmd(pattern='ykn(?: |$)(.*)')
+@hiro_cmd(pattern='ykn(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("Y aja ya kntl!")
 
 
-@Hiro_cmd(pattern='lunap(?: |$)(.*)')
+@hiro_cmd(pattern='lunap(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("Lu napasi ?")
 
 
-@Hiro_cmd(pattern='lontetol(?: |$)(.*)')
+@hiro_cmd(pattern='lontetol(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("Lonte Kontol!")
 
 
-@Hiro_cmd(pattern='tmo1(?: |$)(.*)')
+@hiro_cmd(pattern='tmo1(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("TMO MULU NGEWE KAGA!")
 
 
-@Hiro_cmd(pattern='tmo2(?: |$)(.*)')
+@hiro_cmd(pattern='tmo2(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("TMO mulu, sasimo lo y")
 
 
-@Hiro_cmd(pattern='sasimo1(?: |$)(.*)')
+@hiro_cmd(pattern='sasimo1(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("Bacot Sasimo")
 
 
-@Hiro_cmd(pattern='sasimo2(?: |$)(.*)')
+@hiro_cmd(pattern='sasimo2(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("Sasimo mmk!")
 
 
-@Hiro_cmd(pattern='ngew1(?: |$)(.*)')
+@hiro_cmd(pattern='ngew1(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("Dunia isinya Ngewe doang!")
 
 
-@Hiro_cmd(pattern='alian(?: |$)(.*)')
+@hiro_cmd(pattern='alian(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("Aliansi Aliansi tai anjing!")
 
 
-@Hiro_cmd(pattern='mutual(?: |$)(.*)')
+@hiro_cmd(pattern='mutual(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("NAK MUTUALAN ABIZZ NIH! SENGGOL DONG🔥")
 
 
-@Hiro_cmd(pattern='bcmk(?: |$)(.*)')
+@hiro_cmd(pattern='bcmk(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("bct mmk!")
 
 
-@Hiro_cmd(pattern='alian2(?: |$)(.*)')
+@hiro_cmd(pattern='alian2(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("Anak aliansi y lu?")
@@ -146,7 +146,7 @@ async def typewriter(typew):
     await typew.edit("HAHAHA KONTOL!")
 
 
-@Hiro_cmd(pattern='peting(?: |$)(.*)')
+@hiro_cmd(pattern='peting(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("Petinggi Petinggi tai anjing!!")
@@ -160,7 +160,7 @@ async def typewriter(typew):
     await typew.edit("MEMEK LU!")
 
 
-@Hiro_cmd(pattern='jlk(?: |$)(.*)')
+@hiro_cmd(pattern='jelk(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("KASIAN ITU ELU SEBENERNYA SIH LO TUH JELEK ANJG SUMPAH DAH JELEK LO KAGA KETULUNGAN DONGO HAHAHA, MAKANYA KALO LAHIR TUH PILIH PILIH, DONGO JANGAN LAHIR DARI KELUARGA MISKIN TOLOL GUA SIH JUJUR PERIHATIN SIH LIAT TINGKAH LAKU BAPA LO YANG KELUYURAN TIAP MALEM NYARI MMK TETANGGA HAHAH YAKAN, KARENA EMA LO UDAH GADA JADI MMK TETANGGA DI HAJAR JUGA TOLOL HAHA, GUA SIH JUJUR YA LIAT KELUARGA LO TUH MIRIS ANJG SEBENARNYA SIH HEHE, EH TAPI MAU GMNA LAGI YAKAN ANAK NYA AJA GTAU DIRI TOLOL GATAU DI UNTUNG DONGO, UDAH DI URUSIN JUGA SAMA GUA MALAH NGELUNJAK DONGO, NANTI GUA KAGA KASIH MAKAN SAMA GUA USIR BARU TAU RASA LO DONGO BABU GUA HAHAH, GUA MOHON YA JANGAN BANYAK TINGKAH DAH KALO MASIH DI URUSIN SAMA TETANGGA YA BLAY HEHE, PANTESAN AJA KEMAREN KEMAREN BELAKANGAN INI LO BALIK MALEM TRUS YAKAN HAHA , EH GTAU NYA LO MAEN BELAKANG NGTD LO MALAH NGE JABLAY DI KOTA TUA HAHAH , KEBETULAN YANG NYEWA JUGA ABANG LO SENDIRI YAKAN , YANG KERJA NYA ABANG LO JADI BANDAR NARKOBA TOLOL HAHAH , TRUS LO DI PAKE SAMA ABANG LO YAKAN , EH GA SENGAJA ABANG LO NGELUARIN NYA DI DALAM YAKAN HAHAH MAMPUS LO GUA BILANG JUGA APA YAKAN , JANGAN NGE JABLAY SEMBARANGAN TOLOL , DAN AKHIRNYA YANG SEWA ABANG LO SENDIRI KAN HAHA, TRUS LO HAMIL SAMA ABANG LO SENDIRI HAHAH KASIAN ANJG , MASA HAMIL SAMA ABANG SENDIRI SIH HAHAH PARAH SIH ABANG LO YAKAN HAHAH , MANA KAGA MAU TANGGUNG JAWAB LAGI YAKAN ABANG LO MALAH KABUR GTAU KEMNA HAHA , KARENA ABANG LO GA MAU TANGGUNG JAWAB YAKAN AKHIR NYA ADA JUGA TUH YANG MAU NIKAHIN LO YAKAN HAHAH TRUS PAS BAYI NYA KELUAR EH GTAU NYA YANG KELUAR BAYI SETAN HAHAH , KARENANYA ABANG LO WAKTU ITU NGEHAMILIN LO KAGA MAU TANGGUNG JAWAB TRUS KABUR YAKAN , EH GTAU NYA PAS KABUR ABANG LO KETABRAK BAJAI TOLOL HAHAH PARAH SIH GUA MALU ANJG JADI ABANG LO UDAH NGE HAMILIN ADEK SENDIRI YAKAN EH TRUS PAS KABUR KAGA MAU TANGGUNG JAWAB EH MATI NYE NGENES DAH MALAH KETABRAK BAJAI WARNA BIRU HAHAH,EH GTAU NYA KANG BAJAI ITU ADALAH PAMAN LO YAKAN HAHAH JADI PAS DAH TUH KELUARGA HINA YANG DI KUTUK SAMA TETANGGA SENDIRI HAHAH , GARA GARA KETAHUAN MESUM DI KAMAR HAHAH MAKANYA ANAK NYA BGINI NIH YAKAN JADI ANAK DORHAKA BGTU YAKAN HAHAH, MAKANNYA KAN UDAH GUA BILANG YAKAN KALO MAU LAHIRIN TUH MILIH MILIH DULU TOLOL JANGAN ASAL KELUAR AJA DARI MMK SIALAN DANGKALAN TOLOL , MAKANYA YANG TERSIKSA ELO SENDIRI KAN HA. YAKAN TOLOL JADI NYA LO LAHIR DI KELUARGA PENUH KE MISKINAN DAN PENUH KELAPARAN HAHAHA , UDAH YA GUA GAMAU BUKA SEMUA KARTU KELUARGA LO ITU , GUA KASIAN SAMA LO TAKUT GILA TRUS DEP EH MALAH BUNDIR DI JEMBATAN TEMPAT EMA NYA YANG DULU NGELONTE HAHAH , JANGAN YA BLAY GUA TAKUT AJA SIH JUJUR YAKAN , TAKUT LO BUNDIR YAKAN TRUS GUA DI GENTAYANGIN SAMA LO YAKAN TRUS GUA DI BUNUH JUGA YAKAN HAHAH , TAPI SAYANG NYA GUA GA TAKUT SAMA MUKA MUKA SETAN HINA KAYA LO TOLOL HAHAH, JADI SGTU AJA YA DULU TENTANG KEBUSUKAN SEMUA KELUARGA LO HAHAH GUA GMAU CERITAIN PANJANG PANJANG LAGI TAKUT LO NYA SAMA TEMEN TEMEN PADA STERSSS TRUS GILA DAH HAHAH, TRUS KE DOKTER YAKAN TRUS SUNTIK MATI DAH, NAH SEBELUM LO SUNTIK MATI LO BILANG DULU SAMA DOKTER NYA YAKAN, ALESAN NYA MATI GARA GARA VIRUS CORONA YAKAN HAHA , UDAH DEH OTAK OTAK DANGKAL KAYA LO UDAH GAMPANG DI TEBAK TOLOL JADI JANGAN NGELAK NGELAK BGTU DAH GUA JADI JJK ANJG MALAHAN NGELIAT NYA HAHAHA , JADI YAUDHLAH GTU AJA TENTANG KELUARGA LO YANG HINA MISKIN GTU TRUS BELAGU TOLOL HAHAHEMA LO EMA LO TOLOL , EMA LO NOH JADI LONTE KOPAJA TOLOL HAHAH KASIAN BET KASIAN ANJG , GUA TAU LO TUH KAGA PUNYA EMA KAN? MAKANYA NYEBUT NYEBUT EMA GUA YANG CAKEP ITU TOLOL, KALO UDAH KAGA PUNYA EMA JANGAN MANGGIL MANGGIL EMA ORANG TOLOL , ENTAR YANG ADA LO STERSSS DONGO GAPUNYA EMA HAHAH ,KASIAN SIH GUA JUJUR SAMA LO UDAH EMA MATI GARA GARA DI SEWA SAMA SUPIR KOPAJA ANAK JELEK, MISKIN PULA HAHAH, KASIAN ITU ELU SEBENERNYA SIH LO TUH JELEK ANJG SUMPAH DAH JELEK LO KAGA KETULUNGAN DONGO HAHAHA, MAKANYA KALO LAHIR TUH PILIH PILIH DONGO JANGAN LAHIR DARI KELUARGA MISKIN TOLOL GUA SIH JUJUR PERIHATIN SIH LIAT TINGKAH LAKU BAPA LO YANG KELUYURAN TIAP MALEM NYARI MMK TETANGGA HAHAH YAKAN , KARENA EMA LO UDAH GADA JADI MMK TETANGGA DI HAJAR JUGA TOLOL HAHA , GUA SIH JUJUR YA LIAT KELUARGA LO TUH")
