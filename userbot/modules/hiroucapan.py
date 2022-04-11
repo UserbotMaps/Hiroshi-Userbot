@@ -4,11 +4,11 @@
 # Hiroshi Userbot
 
 from userbot import CMD_HELP, CMD_HANDLER as cmd
-from userbot.utils import Hiro_cmd
+from userbot.utils import hiro_cmd
 import asyncio
 
 
-@Hiro_cmd(pattern="lebaran(?: |$)(.*)")
+@hiro_cmd(pattern="lebaran(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
@@ -31,7 +31,7 @@ async def _(event):
         await event.edit(animation_chars[i % 8], link_preview=True)
 
 
-@Hiro_cmd(pattern="hbd(?: |$)(.*)")
+@hiro_cmd(pattern="hbd(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
@@ -54,7 +54,7 @@ async def _(event):
         await event.edit(animation_chars[i % 8], link_preview=True)
 
 
-@Hiro_cmd(pattern="happyaniv(?: |$)(.*)")
+@hiro_cmd(pattern="happyaniv(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
@@ -77,7 +77,7 @@ async def _(event):
         await event.edit(animation_chars[i % 8], link_preview=True)
 
 
-@Hiro_cmd(pattern="papku(?: |$)(.*)")
+@hiro_cmd(pattern="papku(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
