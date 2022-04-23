@@ -62,7 +62,7 @@ async def _(event):
         bokepnya = [
             bokep
             async for bokep in event.client.iter_messages(
-                "@bokephiroshi", filter=InputMessagesFilterVideo
+                "@fakyudurov", filter=InputMessagesFilterVideo
             )
         ]
         aing = await event.client.get_me()
