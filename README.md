@@ -29,13 +29,11 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 ## String Session :
 [![GenerateStringName](https://img.shields.io/badge/repl.it-generateStringName-white)](https://replit.com/@rizkyhmdanii16/StringSession)
 
-<h2 align="center">
-   Metode Deploy
-</h2>
+<h4 align="center"> 🔥DEPLOY ON TELEGRAM🔥 </p>
+<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=VXNlcmJvdE1hcHMvSGlyb3NoaS1Vc2VyYm90IEhpcm9zaGktVXNlcmJvdA"> <img src="https://img.shields.io/badge/Deploy%20On%20Telegram-blue?style=for-the-badge&logo=telegram" width="200" height="35.60" /></a></p>
 
-<p align="center">
-<a href="https://dashboard.heroku.com/new?template=https://github.com/UserbotMaps/Hiroshi-Userbot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>  
-<a href="https://telegram.dog/XTZ_HerokuBot?start=bXVoYW1tYWRyaXpreTE2L0t5eS1Vc2VyYm90IEt5eS1Vc2VyYm90"><img src="https://img.shields.io/badge/Deploy%20Via%20Telegram-blue?style=for-the-badge&logo=telegram" width="250""/</a>  </p>
+<h4 align="center"> 🔥DEPLOY TO HEROKU🔥 </p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/UserbotMaps/Hiroshi-Userbot/tree/Hiroshi-Userbot"> <img src="https://img.shields.io/badge/DEPLOY%20TO%20HEROKU-indigo?style=flat&logo=heroku" width="200" height="35.60" /></a></p>
 
 
 ### Support & Updates 
