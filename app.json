@@ -24,7 +24,7 @@
     },
     "ALIVE_LOGO": {
       "description": "Foto dalam module .alive",
-      "value": "https://telegra.ph/file/aeba6ea2125aa7774b1b5.jpg",
+      "value": "ISI PAKE FOTO LU PAKE LINK JPG",
       "required": false
     },
      "STRING_SESSION": {
@@ -52,10 +52,6 @@
     "ALIVE_NAME": {
       "description": "Nama untuk menunjukan pesan .alive",
       "required": true
-    },
-    "S_PACK_NAME": {
-      "description": "Nama Sticker Pack lo",
-      "required": false
     }
   },
   "addons": [
