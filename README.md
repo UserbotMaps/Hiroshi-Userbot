@@ -26,7 +26,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 ```
 
 ## 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 : 
-[![GenerateStringName](https://img.shields.io/badge/repl.it-generateStringName-white)](https://replit.com/@rizkyhmdanii16/StringSession)
+[![GenerateStringName](https://img.shields.io/badge/repl.it-generateStringName-kuning)](https://replit.com/@rizkyhmdanii16/StringSession)
 
 ## 𝐃𝐄𝐏𝐋𝐎𝐘 :
 <p align="left"><a href="https://telegram.dog/XTZ_HerokuBot?start=VXNlcmJvdE1hcHMvSGlyb3NoaS1Vc2VyYm90IEhpcm9zaGktVXNlcmJvdA"> <img src="https://img.shields.io/badge/Deploy%20On%20Telegram-blue?style=for-the-badge&logo=telegram" width="200" height="35.60" /></a></p>
