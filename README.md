@@ -30,7 +30,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 
 ## 𝐃𝐄𝐏𝐋𝐎𝐘 :
 <p align="left"><a href="https://telegram.dog/XTZ_HerokuBot?start=VXNlcmJvdE1hcHMvSGlyb3NoaS1Vc2VyYm90IEhpcm9zaGktVXNlcmJvdA"> <img src="https://img.shields.io/badge/Deploy%20On%20Telegram-blue?style=for-the-badge&logo=telegram" width="200" height="35.60" /></a></p>
-<p align="left"><a href="https://heroku.com/deploy?template=https://github.com/UserbotMaps/Hiroshi-Userbot/tree/Hiroshi-Userbot"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-indigo?style=for-the-badge&logo=heroku" width="200" height="35.60" /></a></p>
+<p align="left"><a href="https://heroku.com/deploy?template=https://github.com/UserbotMaps/template-userbot5"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-indigo?style=for-the-badge&logo=heroku" width="200" height="35.60" /></a></p>
 
 ### 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 & 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 
 <a href="https://t.me/hiroshisupport"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/hiroshimabes"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
