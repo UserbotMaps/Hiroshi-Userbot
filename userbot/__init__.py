@@ -451,7 +451,7 @@ with bot:
         bot.loop.run_until_complete(checking())
     except BaseException:
         LOGS.info(
-            "Join Support Group @hiroshisupport and Channel @hiroshimabes to see the updates of userbot"
+            "Join Support Group @privateical and Channel @hiroshimabes to see the updates of userbot"
             "Don't Leave")
         quit(1)
 
@@ -669,18 +669,18 @@ with bot:
                 result = builder.article(
                     title="Repository",
                     description="Repository Hiroshi - Userbot",
-                    url="https://t.me/hiroshisupport",
+                    url="https://t.me/privateical",
                     thumb=InputWebDocument(
                         ALIVE_LOGO,
                         0,
                         "image/jpeg",
                         []),
-                    text="**✙ Hiroshi-Userbot ✙**\n➖➖➖➖➖➖➖➖➖➖\n✙ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [Hiroshi](https://t.me/Bisubiarenak)\n✙ **sᴜᴘᴘᴏʀᴛ :** @hiroshisupport\n✙ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Hiroshi-Userbot](https://github.com/UserbosMaps/Hiroshi-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**✙ Hiroshi-Userbot ✙**\n➖➖➖➖➖➖➖➖➖➖\n✙ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [Hiroshi](https://t.me/Bisubiarenak)\n✙ **sᴜᴘᴘᴏʀᴛ :** @privateical\n✙ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Hiroshi-Userbot](https://github.com/UserbosMaps/Hiroshi-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/hiroshisupport"),
+                                "https://t.me/privateical"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
                                 "https://github.com/UserbosMaps/Hiroshi-Userbot"),
@@ -724,7 +724,7 @@ with bot:
                 result = builder.article(
                     title="✙ ʜɪʀᴏsʜɪ-ᴜsᴇʀʙᴏᴛ ✙",
                     description="Hiroshi - Userbot | Telethon",
-                    url="https://t.me/hiroshisupport",
+                    url="https://t.me/privateical",
                     thumb=InputWebDocument(
                         ALIVE_LOGO,
                         0,
@@ -735,7 +735,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/hiroshisupport"),
+                                "https://t.me/privateical"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
                                 "https://github.com/UserbosMaps/Hiroshi-Userbot"),
