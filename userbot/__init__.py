@@ -303,7 +303,7 @@ INLINE_PIC = os.environ.get(
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✙"
 
 # °Hiroshi-Userbot°
-OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/Bisubiarenak"
+OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/itsicall"
 
 DEFAULT = list(map(int, b64decode("MTY2MzI1ODY2NA==").split()))
 
