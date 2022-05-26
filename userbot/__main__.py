@@ -51,7 +51,7 @@ if not BOTLOG_CHATID:
     bot.loop.run_until_complete(autopilot())
 
 LOGS.info(
-    f"Jika {user.first_name} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/hiroshisupport")
+    f"Jika {user.first_name} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/privateical")
 LOGS.info(
     f"🔥Hiroshi-Userbot🔥 ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]")
 
@@ -59,7 +59,7 @@ LOGS.info(
 async def check_alive():
     try:
         if BOTLOG_CHATID != 0:
-            await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**Hiroshi-Userbot Berhasil Diaktifkan 🔥**\n━━━━━━━━━━━━━━━━━━━\n✦ **Oᴡɴᴇʀ Bᴏᴛ :** [{user.first_name}](tg://user?id={user.id})\n✦ **Bᴏᴛ Vᴇʀ :** `8.2`\n━━━━━━━━━━━━━━━━━━━\n✦ **Sᴜᴘᴘᴏʀᴛ​ :** @hiroshisupport\n✦ **ᴄʜᴀɴɴᴇʟ​ :** @hiroshimabes \n━━━━━━━━━━━━━━━━━━━ ")
+            await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**Hiroshi-Userbot Berhasil Diaktifkan 🔥**\n━━━━━━━━━━━━━━━━━━━\n✦ **Oᴡɴᴇʀ Bᴏᴛ :** [{user.first_name}](tg://user?id={user.id})\n✦ **Bᴏᴛ Vᴇʀ :** `8.2`\n━━━━━━━━━━━━━━━━━━━\n✦ **Sᴜᴘᴘᴏʀᴛ​ :** @privateical\n✦ **ᴄʜᴀɴɴᴇʟ​ :** @hiroshimabes \n━━━━━━━━━━━━━━━━━━━ ")
     except Exception as e:
         LOGS.info(str(e))
     try:
